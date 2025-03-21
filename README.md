@@ -3,7 +3,7 @@ API Autocomplete System - Technical Assignment
 
 
 # Approach
-Tested different endpoints (/v1, /v2, /v3) to understand responses and constraints.
+Tested different endpoints (/v1, /v2, /v3) to understand responses and constraints.__
 Used a prefix-based approach to systematically extract names.
 Implemented delays to avoid hitting request limits.
 Collected all results and counted the number of words and requests for each endpoint.
