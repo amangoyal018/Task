@@ -4,10 +4,16 @@ API Autocomplete System - Technical Assignment
 
 # Approach
 Tested different endpoints (/v1, /v2, /v3) to understand responses and constraints.
+
+
 Used a prefix-based approach to extract names.
 If "s" returns 15 names, we explore "s ", "s+", "s-", "s0", "s1", ..., "sz", etc. (in v3)
 In a Recursive way we found out all the words starting with that prefix.
+
+
 Implemented delays to avoid hitting request limits.
+
+
 Collected all results and counted the number of words and requests for each endpoint.
 
 # Findings
@@ -48,15 +54,26 @@ The API was handling "a" , "a+" , "a " as same as it trims the white space so "e
 
 # Results
 For v1
+
+
 Request Made: 31019
+
+
 Words found: 18632 
 
 
 For v2:
+
+
 Request Made:
+
+
 Words found:
 
 
 For v3:
 Request Made:3394   
+
+
 Words found:11948
+
