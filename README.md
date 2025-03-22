@@ -65,13 +65,15 @@ Words found: 18632
 For v2:
 
 
-Request Made:
+Request Made: 7417
 
 
-Words found:
+Words found:13730
 
 
 For v3:
+
+
 Request Made:3394   
 
 
