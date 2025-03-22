@@ -17,16 +17,20 @@ v1 - alphabets
 v2 - alphanumeric
 v3 - alphanumeric and symbols like(+-.)
 
+
 There was different threshold limit for each endpoint.
 If for some prefix there are many words, v1 shows 10 , v2 - 12 and v3 - 15 words which inturn more recursive call to find exact words.
+
 
 Each api version has its own specific limit
 v1 - 100 words per minute
 v2 - 50 words per minute
 v3 - 80 words per minute
 
+
 For each query it return a json which contains "version" "count" and "results"(all words).
 Results is a array of words which starts with that prefix.
+
 
 When querying an invalid prefix, sometimes the API returns
 {"detail": "Not Found"}
@@ -43,13 +47,15 @@ The API was handling "a" , "a+" , "a " as same as it trims the white space so "e
 
 
 # Results
-For v1:
+For v1
 Request Made: 31019
 Words found: 18632 
+
 
 For v2:
 Request Made:
 Words found:
+
 
 For v3:
 Request Made:3394   
