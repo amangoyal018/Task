@@ -50,7 +50,7 @@ def extract_names(prefix, all_names,requests_cnt, url, threshold, characters):
     names = get_names(prefix,url,requests_cnt)
     
     #rate limiting as 100 words per minute
-    time.sleep(0.6) 
+    time.sleep(1.2) 
     
     if len(names) >= threshold:
         
